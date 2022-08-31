@@ -30,19 +30,22 @@
         {
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.tb1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.tb2 = new System.Windows.Forms.TextBox();
+            this.tb3 = new System.Windows.Forms.TextBox();
+            this.tb4 = new System.Windows.Forms.TextBox();
+            this.tb5 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(35, 87);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(125, 30);
+            this.button1.Size = new System.Drawing.Size(125, 66);
             this.button1.TabIndex = 0;
             this.button1.Text = "CRC24";
             this.button1.UseVisualStyleBackColor = true;
@@ -51,71 +54,102 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox1.Location = new System.Drawing.Point(211, 87);
+            this.textBox1.Location = new System.Drawing.Point(271, 87);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(133, 30);
+            this.textBox1.Size = new System.Drawing.Size(186, 30);
             this.textBox1.TabIndex = 1;
-
             // 
-            // textBox4
+            // tb1
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox4.Location = new System.Drawing.Point(35, 27);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(63, 30);
-            this.textBox4.TabIndex = 7;
+            this.tb1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tb1.Location = new System.Drawing.Point(35, 27);
+            this.tb1.Name = "tb1";
+            this.tb1.Size = new System.Drawing.Size(60, 30);
+            this.tb1.TabIndex = 7;
             // 
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox2.Location = new System.Drawing.Point(408, 87);
+            this.textBox2.Location = new System.Drawing.Point(271, 123);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(133, 30);
+            this.textBox2.Size = new System.Drawing.Size(186, 30);
             this.textBox2.TabIndex = 10;
             // 
-            // textBox3
+            // tb2
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox3.Location = new System.Drawing.Point(124, 27);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(61, 30);
-            this.textBox3.TabIndex = 11;
+            this.tb2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tb2.Location = new System.Drawing.Point(124, 27);
+            this.tb2.Name = "tb2";
+            this.tb2.Size = new System.Drawing.Size(60, 30);
+            this.tb2.TabIndex = 11;
             // 
-            // textBox5
+            // tb3
             // 
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox5.Location = new System.Drawing.Point(211, 27);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(60, 30);
-            this.textBox5.TabIndex = 12;
+            this.tb3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tb3.Location = new System.Drawing.Point(211, 27);
+            this.tb3.Name = "tb3";
+            this.tb3.Size = new System.Drawing.Size(60, 30);
+            this.tb3.TabIndex = 12;
             // 
-            // textBox6
+            // tb4
             // 
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox6.Location = new System.Drawing.Point(310, 27);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(57, 30);
-            this.textBox6.TabIndex = 13;
+            this.tb4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tb4.Location = new System.Drawing.Point(310, 27);
+            this.tb4.Name = "tb4";
+            this.tb4.Size = new System.Drawing.Size(60, 30);
+            this.tb4.TabIndex = 13;
             // 
-            // textBox7
+            // tb5
             // 
-            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox7.Location = new System.Drawing.Point(398, 27);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(59, 30);
-            this.textBox7.TabIndex = 14;
+            this.tb5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tb5.Location = new System.Drawing.Point(398, 27);
+            this.tb5.Name = "tb5";
+            this.tb5.Size = new System.Drawing.Size(60, 30);
+            this.tb5.TabIndex = 14;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(214, 91);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(51, 24);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "HEX";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(225, 127);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(40, 24);
+            this.label2.TabIndex = 16;
+            this.label2.Text = "BIN";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(32, 11);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(186, 13);
+            this.label3.TabIndex = 17;
+            this.label3.Text = "Ввод данных (255,255,255,255,255 )";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(588, 157);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox3);
+            this.ClientSize = new System.Drawing.Size(480, 157);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.tb5);
+            this.Controls.Add(this.tb4);
+            this.Controls.Add(this.tb3);
+            this.Controls.Add(this.tb2);
             this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.tb1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
@@ -129,12 +163,15 @@
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox tb1;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox tb2;
+        private System.Windows.Forms.TextBox tb3;
+        private System.Windows.Forms.TextBox tb4;
+        private System.Windows.Forms.TextBox tb5;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }
 
